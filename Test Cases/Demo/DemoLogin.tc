@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DemoLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>756afc76-6486-427a-b82e-e0b087cbc98d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5311a97-1d26-4d91-a2b8-adfdfc91147e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04b443f6-e80f-4fa7-a606-5a5962702ea5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'huynhm.duy08@gmail.com'</defaultValue>
+      <description></description>
+      <id>f5311a97-1d26-4d91-a2b8-adfdfc91147e</id>
+      <masked>false</masked>
+      <name>sUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Zxc123@'</defaultValue>
+      <description></description>
+      <id>04b443f6-e80f-4fa7-a606-5a5962702ea5</id>
+      <masked>false</masked>
+      <name>sPassword</name>
+   </variable>
+</TestCaseEntity>
