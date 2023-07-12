@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\dmanhuynh\\Downloads\\ACBONE.apk', true)
+Mobile.startExistingApplication('mobile.acb.com.vn')
 
 Mobile.tap(findTestObject('Object Repository/DemCustomACBOne/android.widget.txvLogin1'), 0)
 

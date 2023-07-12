@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\dmanhuynh\\Downloads\\SampleAndroidApp_Apkpure.apk', true)
+Mobile.startExistingApplication('com.loginmodule.learning')
 
 /*
  * Create multiple account
@@ -51,6 +51,8 @@ Mobile.setText(findTestObject('Object Repository/DemoRegisterAndLogin/android.wi
 Mobile.setText(findTestObject('Object Repository/DemoRegisterAndLogin/android.widget.txfPassword', ['preClass': GlobalVariable.gClassAndroid]), sPassword, 0)
 
 Mobile.setText(findTestObject('Object Repository/DemoRegisterAndLogin/android.widget.txfConfirmPassword', ['preClass': GlobalVariable.gClassAndroid]), sPassword, 0)
+
+Mobile.scrollToText('REGISTER');
 
 Mobile.tap(findTestObject('Object Repository/DemoRegisterAndLogin/android.widget.btnRegister', ['preClass': GlobalVariable.gClassAndroid]), 0)
 
